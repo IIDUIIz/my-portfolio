@@ -1,3 +1,13 @@
+@charset "UTF-8";
+/*
+
+ * Estilos do meu Portifolio
+ * Copyright 2021-2021 Eduardo de Oliveira Henrique
+ * Licensed under MIT (https://github.com/F4M1NT0/my-portfolio)
+ 
+*/
+
+
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=VT323&display=swap');
@@ -12,7 +22,6 @@
     scroll-behavior: smooth;
   }
 }
-
 body {
   background-color:#252628;
   font-family: 'Ubuntu', sans-serif;
@@ -20,12 +29,43 @@ body {
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
   line-height: var(--bs-body-line-height);
-  color:white;
   text-align: var(--bs-body-text-align);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-
+/* Class das cores da fonte */
+.color-1{
+  color: #81acbc;
+}
+.color-2{
+  color: #90b3be;
+}
+.color-3{
+  color: #acc1c6;
+}
+.color-4{
+  color: #d1d8d1;
+}
+.color-5{
+  color: #ede7d9;
+}
+/* Class de background color */
+.bg-color-1{
+  background-color: #81acbc;
+}
+.bg-color-2{
+  background-color: #90b3be;
+}
+.bg-color-3{
+  background-color: #acc1c6;
+}
+.bg-color-4{
+  background-color: #d1d8d1;
+}
+.bg-color-5{
+  background-color: #ede7d9;
+}
+/* Estilo das fontes */
 .text-normal{
   text-transform: none;
 }
@@ -38,6 +78,8 @@ body {
 .fs-texto{
   font-size: 1.183rem;
 }
+
+/* Estilo das divs */
 .div-principal{
   justify-content: center;
   align-items: center;
@@ -79,14 +121,9 @@ body {
   flex: 0 0 auto;
   width: 40%;
 }
+
+/* Estilo das imagens */
 .img{
   object-fit: contain;
   width: 500px;
 }
-/* Paleta de cores para utilizar
-  #81acbc
-  #90b3be
-  #acc1c6
-  #d1d8d1
-  #ede7d9
- */
