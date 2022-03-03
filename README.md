@@ -1,2 +1,2 @@
 # iiduiiz.github.io
-Site para publicação dos conhecimentos pessoal
+Site para publicação dos conhecimentos pessoais -
