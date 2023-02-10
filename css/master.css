@@ -168,7 +168,7 @@ body {
 /* Estilo das imagens */
 .img {
   object-fit: contain;
-  width: 40vw;
+  width: 25vw;
 }
 .brand{
   float: left;
