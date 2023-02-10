@@ -177,6 +177,7 @@ body {
 
 
 .nav {
+  font-weight: 800;
   display: flex;
   padding: 0 10% 0 10%;
 }
@@ -185,21 +186,23 @@ body {
   display: inline;
   padding-left: 20px;
   text-decoration: none;
+  transition: all 0.3s ease;
 }
-.nav-item:hover{
+.nav-item:hover {
   color: #a4c2c8;
   cursor: pointer;
 }
 .nav-item:hover:before {
   content: "<";
-  padding-right: 5px;
   color: #a4c2c8;
+  transition: all 0.3s ease;
 }
 .nav-item:hover:after {
   content: ">";
-  padding-left: 5px;
   color: #a4c2c8;
+  transition: all 0.3s ease;
 }
+
 .nav-list {
   list-style-type: none;
   overflow: hidden;
